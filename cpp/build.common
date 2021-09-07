@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -z $CXX ]; then
+  CXX=g++
+fi;
+
+CXX_OPTS=-std=c++17
+
