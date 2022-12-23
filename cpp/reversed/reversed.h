@@ -13,8 +13,13 @@ class ReverseView {
 public:
   ReverseView(T& t) : t_(t) {}
 
-  auto begin() const { return t_.rbegin(); }
-  auto end() const { return t_.rend(); }
+  auto begin() const {
+    return t_.rbegin();
+  }
+
+  auto end() const {
+    return t_.rend();
+  }
 
 private:
   T& t_;
